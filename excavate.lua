@@ -12,19 +12,17 @@
 ---- Informational Messages ----
 
 --- Print the usage message for this program.
--- @param prog_name The name of the program.
-local usage = function (prog_name)
-  print("\n  usage: " .. prog_name .. " shape depth dimension "
+local usage = function ()
+  print("\n  usage: " .. arg[0] .. " shape depth dimension "
           .. "[second_dimension] [-e [slots to exclude]] "
           .. " [-i [slots to include]] [-h]\n")
 end
 
 
 --- Print the help message for this program.
--- @param prog_name The name of the program.
-local help = function (prog_name)
-  print("\nNAME\n\n  " .. prog_name .. "\n")
-  print("SYNOPSIS"); usage(prog_name)
+local help = function ()
+  print("\nNAME\n\n  " .. arg[0] .. "\n")
+  print("SYNOPSIS"); usage()
   print(
 [[
 DESCRIPTION
