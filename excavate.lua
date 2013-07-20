@@ -1,6 +1,6 @@
 --- @author Cutter Coryell
 -------------------------------------------------------------------------------
---| Minecraft Turtle routine to excavate a section of earth, storing everything
+--| ComputerCraft Turtle routine to excavate a section of earth, storing everything
 --| it finds in chests. Optionally it can exclude storing certain items, store
 --| only certain items, or store nothing at all.
 
@@ -27,7 +27,7 @@ local help = function ()
 [[
 DESCRIPTION
 
-  Minecraft Turtle routine to excavate a section of earth, storing everything
+  ComputerCraft Turtle routine to excavate a section of earth, storing everything
   it finds in chests. Optionally it can exclude storing certain items, store
   only certain items, or store nothing at all.
 
